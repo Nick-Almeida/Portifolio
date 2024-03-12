@@ -4,7 +4,6 @@ import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.text.DecimalFormat;
-
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -74,7 +73,7 @@ public class IMC_Calc {
                     } else if (imc < 24.9) {
                         avaliacao = "Peso normal";
                     } else if (imc < 29.9) {
-                        avaliacao = "Sobrepeso";
+                        avaliacao = "Sobrepeso/Obesidade Grau I";
                     } else if (imc < 39.9) {
                         avaliacao = "Obresidade Grau II";
                     } else if (imc > 40) {
